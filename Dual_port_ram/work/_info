@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Memory_VLSI/Dual_port_ram
+T_opt
+!s110 1739937767
+VPLPJ6`kDo:I4F5c4_>jP_0
+04 20 4 work tb_ram_dp_async_read fast 0
+=1-dc4a3ef1b5db-67b557e6-35f-2440
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vram_dp_async_read
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1739937764
+!i10b 1
+!s100 K8EzEoWdj1oH3?^NjJjP_0
+IZ7<8]5h2f:;5o=WC`;7m83
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ram_dp_async_read_v_unit
+S1
+R0
+w1739937661
+8ram_dp_async_read.v
+Fram_dp_async_read.v
+L0 2
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1739937764.000000
+Z7 !s107 tb_ram_dp_async_read.v|ram_dp_async_read.v|
+Z8 !s90 -sv|ram_dp_async_read.v|tb_ram_dp_async_read.v|
+!i113 0
+Z9 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_ram_dp_async_read
+R2
+R3
+!i10b 1
+!s100 AQ?B@>;383QNL@dbhXiVK1
+I[mji[z08o^2OmLCS`lCYk3
+R4
+!s105 tb_ram_dp_async_read_v_unit
+S1
+R0
+w1739937673
+8tb_ram_dp_async_read.v
+Ftb_ram_dp_async_read.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

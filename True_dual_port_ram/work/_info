@@ -1,0 +1,74 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Memory_VLSI/True_dual_port_ram
+T_opt
+!s110 1740303752
+VFWoGo`g0;XFN8XXnK2dVg1
+Z1 04 21 4 work tb_true_dual_port_ram fast 0
+=1-dc4a3ef1b5db-67baed88-22c-3fac
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1740318517
+VhY@<Z<9l5aMhBd0_ffZ7V3
+R1
+=1-dc4a3ef1b5db-67bb2735-e9-3764
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vtb_true_dual_port_ram
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z4 !s110 1740318515
+!i10b 1
+!s100 iVKW5UJQ08LS0C3oSX`^11
+IR<6b^PC2zk3eA9k;E>IPK2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+!s105 tb_true_dual_port_ram_sv_unit
+S1
+R0
+w1740318508
+8tb_true_dual_port_ram.sv
+Ftb_true_dual_port_ram.sv
+L0 3
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1740318515.000000
+Z8 !s107 tb_true_dual_port_ram.sv|true_dual_port_ram.v|
+Z9 !s90 true_dual_port_ram.v|tb_true_dual_port_ram.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtrue_dual_port_ram
+R4
+!i10b 1
+!s100 >mCL31Vj=FlR[Z48]FYCd0
+IEKB]TgZUB?A5hb>Hkbz5M0
+R5
+R0
+w1740318380
+8true_dual_port_ram.v
+Ftrue_dual_port_ram.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2

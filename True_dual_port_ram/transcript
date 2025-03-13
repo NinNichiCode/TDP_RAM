@@ -1,0 +1,409 @@
+# do vsim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:48:35 on Feb 23,2025
+# vlog true_dual_port_ram.v tb_true_dual_port_ram.sv 
+# -- Compiling module true_dual_port_ram
+# -- Compiling module tb_true_dual_port_ram
+# ** Warning: tb_true_dual_port_ram.sv(140): (vlog-2643) Unterminated string literal continues onto next line.
+# 
+# Top level modules:
+# 	tb_true_dual_port_ram
+# End time: 20:48:35 on Feb 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" tb_true_dual_port_ram 
+# Start time: 20:48:36 on Feb 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_true_dual_port_ram(fast)
+# Loading work.true_dual_port_ram(fast)
+# [WRITE A] Addr_A = 0, Data_A = 24
+# SUCCESS [Port A] Addr = 0, Exp = 24, Obs = 24
+# [WRITE A] Addr_A = 1, Data_A = 81
+# SUCCESS [Port A] Addr = 1, Exp = 81, Obs = 81
+# [WRITE A] Addr_A = 2, Data_A = 9
+# SUCCESS [Port A] Addr = 2, Exp = 9, Obs = 9
+# [WRITE A] Addr_A = 3, Data_A = 63
+# SUCCESS [Port A] Addr = 3, Exp = 63, Obs = 63
+# [WRITE A] Addr_A = 4, Data_A = d
+# SUCCESS [Port A] Addr = 4, Exp = d, Obs = d
+# [WRITE A] Addr_A = 5, Data_A = 8d
+# SUCCESS [Port A] Addr = 5, Exp = 8d, Obs = 8d
+# [WRITE A] Addr_A = 6, Data_A = 65
+# SUCCESS [Port A] Addr = 6, Exp = 65, Obs = 65
+# [WRITE A] Addr_A = 7, Data_A = 12
+# SUCCESS [Port A] Addr = 7, Exp = 12, Obs = 12
+# [WRITE A] Addr_A = 8, Data_A = 1
+# SUCCESS [Port A] Addr = 8, Exp = 1, Obs = 1
+# [WRITE A] Addr_A = 9, Data_A = d
+# SUCCESS [Port A] Addr = 9, Exp = d, Obs = d
+# [WRITE A] Addr_A = 10, Data_A = 76
+# SUCCESS [Port A] Addr = 10, Exp = 76, Obs = 76
+# [WRITE A] Addr_A = 11, Data_A = 3d
+# SUCCESS [Port A] Addr = 11, Exp = 3d, Obs = 3d
+# [WRITE A] Addr_A = 12, Data_A = ed
+# SUCCESS [Port A] Addr = 12, Exp = ed, Obs = ed
+# [WRITE A] Addr_A = 13, Data_A = 8c
+# SUCCESS [Port A] Addr = 13, Exp = 8c, Obs = 8c
+# [WRITE A] Addr_A = 14, Data_A = f9
+# SUCCESS [Port A] Addr = 14, Exp = f9, Obs = f9
+# [WRITE A] Addr_A = 15, Data_A = c6
+# SUCCESS [Port A] Addr = 15, Exp = c6, Obs = c6
+# [WRITE A] Addr_A = 16, Data_A = c5
+# SUCCESS [Port A] Addr = 16, Exp = c5, Obs = c5
+# [WRITE A] Addr_A = 17, Data_A = aa
+# SUCCESS [Port A] Addr = 17, Exp = aa, Obs = aa
+# [WRITE A] Addr_A = 18, Data_A = e5
+# SUCCESS [Port A] Addr = 18, Exp = e5, Obs = e5
+# [WRITE A] Addr_A = 19, Data_A = 77
+# SUCCESS [Port A] Addr = 19, Exp = 77, Obs = 77
+# [WRITE A] Addr_A = 20, Data_A = 12
+# SUCCESS [Port A] Addr = 20, Exp = 12, Obs = 12
+# [WRITE A] Addr_A = 21, Data_A = 8f
+# SUCCESS [Port A] Addr = 21, Exp = 8f, Obs = 8f
+# [WRITE A] Addr_A = 22, Data_A = f2
+# SUCCESS [Port A] Addr = 22, Exp = f2, Obs = f2
+# [WRITE A] Addr_A = 23, Data_A = ce
+# SUCCESS [Port A] Addr = 23, Exp = ce, Obs = ce
+# [WRITE A] Addr_A = 24, Data_A = e8
+# SUCCESS [Port A] Addr = 24, Exp = e8, Obs = e8
+# [WRITE A] Addr_A = 25, Data_A = c5
+# SUCCESS [Port A] Addr = 25, Exp = c5, Obs = c5
+# [WRITE A] Addr_A = 26, Data_A = 5c
+# SUCCESS [Port A] Addr = 26, Exp = 5c, Obs = 5c
+# [WRITE A] Addr_A = 27, Data_A = bd
+# SUCCESS [Port A] Addr = 27, Exp = bd, Obs = bd
+# [WRITE A] Addr_A = 28, Data_A = 2d
+# SUCCESS [Port A] Addr = 28, Exp = 2d, Obs = 2d
+# [WRITE A] Addr_A = 29, Data_A = 65
+# SUCCESS [Port A] Addr = 29, Exp = 65, Obs = 65
+# [WRITE A] Addr_A = 30, Data_A = 63
+# SUCCESS [Port A] Addr = 30, Exp = 63, Obs = 63
+# [WRITE A] Addr_A = 31, Data_A = a
+# SUCCESS [Port A] Addr = 31, Exp = a, Obs = a
+# [WRITE A] Addr_A = 32, Data_A = 80
+# SUCCESS [Port A] Addr = 32, Exp = 80, Obs = 80
+# [WRITE A] Addr_A = 33, Data_A = 20
+# SUCCESS [Port A] Addr = 33, Exp = 20, Obs = 20
+# [WRITE A] Addr_A = 34, Data_A = aa
+# SUCCESS [Port A] Addr = 34, Exp = aa, Obs = aa
+# [WRITE A] Addr_A = 35, Data_A = 9d
+# SUCCESS [Port A] Addr = 35, Exp = 9d, Obs = 9d
+# [WRITE A] Addr_A = 36, Data_A = 96
+# SUCCESS [Port A] Addr = 36, Exp = 96, Obs = 96
+# [WRITE A] Addr_A = 37, Data_A = 13
+# SUCCESS [Port A] Addr = 37, Exp = 13, Obs = 13
+# [WRITE A] Addr_A = 38, Data_A = d
+# SUCCESS [Port A] Addr = 38, Exp = d, Obs = d
+# [WRITE A] Addr_A = 39, Data_A = 53
+# SUCCESS [Port A] Addr = 39, Exp = 53, Obs = 53
+# [WRITE A] Addr_A = 40, Data_A = 6b
+# SUCCESS [Port A] Addr = 40, Exp = 6b, Obs = 6b
+# [WRITE A] Addr_A = 41, Data_A = d5
+# SUCCESS [Port A] Addr = 41, Exp = d5, Obs = d5
+# [WRITE A] Addr_A = 42, Data_A = 2
+# SUCCESS [Port A] Addr = 42, Exp = 2, Obs = 2
+# [WRITE A] Addr_A = 43, Data_A = ae
+# SUCCESS [Port A] Addr = 43, Exp = ae, Obs = ae
+# [WRITE A] Addr_A = 44, Data_A = 1d
+# SUCCESS [Port A] Addr = 44, Exp = 1d, Obs = 1d
+# [WRITE A] Addr_A = 45, Data_A = cf
+# SUCCESS [Port A] Addr = 45, Exp = cf, Obs = cf
+# [WRITE A] Addr_A = 46, Data_A = 23
+# SUCCESS [Port A] Addr = 46, Exp = 23, Obs = 23
+# [WRITE A] Addr_A = 47, Data_A = a
+# SUCCESS [Port A] Addr = 47, Exp = a, Obs = a
+# [WRITE A] Addr_A = 48, Data_A = ca
+# SUCCESS [Port A] Addr = 48, Exp = ca, Obs = ca
+# [WRITE A] Addr_A = 49, Data_A = 3c
+# SUCCESS [Port A] Addr = 49, Exp = 3c, Obs = 3c
+# [WRITE A] Addr_A = 50, Data_A = f2
+# SUCCESS [Port A] Addr = 50, Exp = f2, Obs = f2
+# [WRITE A] Addr_A = 51, Data_A = 8a
+# SUCCESS [Port A] Addr = 51, Exp = 8a, Obs = 8a
+# [WRITE A] Addr_A = 52, Data_A = 41
+# SUCCESS [Port A] Addr = 52, Exp = 41, Obs = 41
+# [WRITE A] Addr_A = 53, Data_A = d8
+# SUCCESS [Port A] Addr = 53, Exp = d8, Obs = d8
+# [WRITE A] Addr_A = 54, Data_A = 78
+# SUCCESS [Port A] Addr = 54, Exp = 78, Obs = 78
+# [WRITE A] Addr_A = 55, Data_A = 89
+# SUCCESS [Port A] Addr = 55, Exp = 89, Obs = 89
+# [WRITE A] Addr_A = 56, Data_A = eb
+# SUCCESS [Port A] Addr = 56, Exp = eb, Obs = eb
+# [WRITE A] Addr_A = 57, Data_A = b6
+# SUCCESS [Port A] Addr = 57, Exp = b6, Obs = b6
+# [WRITE A] Addr_A = 58, Data_A = c6
+# SUCCESS [Port A] Addr = 58, Exp = c6, Obs = c6
+# [WRITE A] Addr_A = 59, Data_A = ae
+# SUCCESS [Port A] Addr = 59, Exp = ae, Obs = ae
+# [WRITE A] Addr_A = 60, Data_A = bc
+# SUCCESS [Port A] Addr = 60, Exp = bc, Obs = bc
+# [WRITE A] Addr_A = 61, Data_A = 2a
+# SUCCESS [Port A] Addr = 61, Exp = 2a, Obs = 2a
+# [WRITE A] Addr_A = 62, Data_A = b
+# SUCCESS [Port A] Addr = 62, Exp = b, Obs = b
+# [WRITE A] Addr_A = 63, Data_A = 71
+# SUCCESS [Port A] Addr = 63, Exp = 71, Obs = 71
+# [WRITE B] Addr_B = 0, Data_B = 85
+# SUCCESS [Port B] Addr = 0, Exp = 85, Obs = 85
+# [WRITE B] Addr_B = 1, Data_B = 4f
+# SUCCESS [Port B] Addr = 1, Exp = 4f, Obs = 4f
+# [WRITE B] Addr_B = 2, Data_B = 3b
+# SUCCESS [Port B] Addr = 2, Exp = 3b, Obs = 3b
+# [WRITE B] Addr_B = 3, Data_B = 3a
+# SUCCESS [Port B] Addr = 3, Exp = 3a, Obs = 3a
+# [WRITE B] Addr_B = 4, Data_B = 7e
+# SUCCESS [Port B] Addr = 4, Exp = 7e, Obs = 7e
+# [WRITE B] Addr_B = 5, Data_B = 15
+# SUCCESS [Port B] Addr = 5, Exp = 15, Obs = 15
+# [WRITE B] Addr_B = 6, Data_B = f1
+# SUCCESS [Port B] Addr = 6, Exp = f1, Obs = f1
+# [WRITE B] Addr_B = 7, Data_B = d9
+# SUCCESS [Port B] Addr = 7, Exp = d9, Obs = d9
+# [WRITE B] Addr_B = 8, Data_B = 62
+# SUCCESS [Port B] Addr = 8, Exp = 62, Obs = 62
+# [WRITE B] Addr_B = 9, Data_B = 4c
+# SUCCESS [Port B] Addr = 9, Exp = 4c, Obs = 4c
+# [WRITE B] Addr_B = 10, Data_B = 9f
+# SUCCESS [Port B] Addr = 10, Exp = 9f, Obs = 9f
+# [WRITE B] Addr_B = 11, Data_B = 8f
+# SUCCESS [Port B] Addr = 11, Exp = 8f, Obs = 8f
+# [WRITE B] Addr_B = 12, Data_B = f8
+# SUCCESS [Port B] Addr = 12, Exp = f8, Obs = f8
+# [WRITE B] Addr_B = 13, Data_B = b7
+# SUCCESS [Port B] Addr = 13, Exp = b7, Obs = b7
+# [WRITE B] Addr_B = 14, Data_B = 9f
+# SUCCESS [Port B] Addr = 14, Exp = 9f, Obs = 9f
+# [WRITE B] Addr_B = 15, Data_B = 5c
+# SUCCESS [Port B] Addr = 15, Exp = 5c, Obs = 5c
+# [WRITE B] Addr_B = 16, Data_B = 5b
+# SUCCESS [Port B] Addr = 16, Exp = 5b, Obs = 5b
+# [WRITE B] Addr_B = 17, Data_B = 89
+# SUCCESS [Port B] Addr = 17, Exp = 89, Obs = 89
+# [WRITE B] Addr_B = 18, Data_B = 49
+# SUCCESS [Port B] Addr = 18, Exp = 49, Obs = 49
+# [WRITE B] Addr_B = 19, Data_B = d0
+# SUCCESS [Port B] Addr = 19, Exp = d0, Obs = d0
+# [WRITE B] Addr_B = 20, Data_B = d7
+# SUCCESS [Port B] Addr = 20, Exp = d7, Obs = d7
+# [WRITE B] Addr_B = 21, Data_B = 51
+# SUCCESS [Port B] Addr = 21, Exp = 51, Obs = 51
+# [WRITE B] Addr_B = 22, Data_B = 96
+# SUCCESS [Port B] Addr = 22, Exp = 96, Obs = 96
+# [WRITE B] Addr_B = 23, Data_B = c
+# SUCCESS [Port B] Addr = 23, Exp = c, Obs = c
+# [WRITE B] Addr_B = 24, Data_B = c2
+# SUCCESS [Port B] Addr = 24, Exp = c2, Obs = c2
+# [WRITE B] Addr_B = 25, Data_B = c8
+# SUCCESS [Port B] Addr = 25, Exp = c8, Obs = c8
+# [WRITE B] Addr_B = 26, Data_B = 77
+# SUCCESS [Port B] Addr = 26, Exp = 77, Obs = 77
+# [WRITE B] Addr_B = 27, Data_B = 3d
+# SUCCESS [Port B] Addr = 27, Exp = 3d, Obs = 3d
+# [WRITE B] Addr_B = 28, Data_B = 12
+# SUCCESS [Port B] Addr = 28, Exp = 12, Obs = 12
+# [WRITE B] Addr_B = 29, Data_B = 7e
+# SUCCESS [Port B] Addr = 29, Exp = 7e, Obs = 7e
+# [WRITE B] Addr_B = 30, Data_B = 6d
+# SUCCESS [Port B] Addr = 30, Exp = 6d, Obs = 6d
+# [WRITE B] Addr_B = 31, Data_B = 39
+# SUCCESS [Port B] Addr = 31, Exp = 39, Obs = 39
+# [WRITE B] Addr_B = 32, Data_B = 1f
+# SUCCESS [Port B] Addr = 32, Exp = 1f, Obs = 1f
+# [WRITE B] Addr_B = 33, Data_B = d3
+# SUCCESS [Port B] Addr = 33, Exp = d3, Obs = d3
+# [WRITE B] Addr_B = 34, Data_B = 85
+# SUCCESS [Port B] Addr = 34, Exp = 85, Obs = 85
+# [WRITE B] Addr_B = 35, Data_B = 78
+# SUCCESS [Port B] Addr = 35, Exp = 78, Obs = 78
+# [WRITE B] Addr_B = 36, Data_B = 5b
+# SUCCESS [Port B] Addr = 36, Exp = 5b, Obs = 5b
+# [WRITE B] Addr_B = 37, Data_B = 49
+# SUCCESS [Port B] Addr = 37, Exp = 49, Obs = 49
+# [WRITE B] Addr_B = 38, Data_B = 3f
+# SUCCESS [Port B] Addr = 38, Exp = 3f, Obs = 3f
+# [WRITE B] Addr_B = 39, Data_B = 2a
+# SUCCESS [Port B] Addr = 39, Exp = 2a, Obs = 2a
+# [WRITE B] Addr_B = 40, Data_B = 58
+# SUCCESS [Port B] Addr = 40, Exp = 58, Obs = 58
+# [WRITE B] Addr_B = 41, Data_B = 86
+# SUCCESS [Port B] Addr = 41, Exp = 86, Obs = 86
+# [WRITE B] Addr_B = 42, Data_B = 8e
+# SUCCESS [Port B] Addr = 42, Exp = 8e, Obs = 8e
+# [WRITE B] Addr_B = 43, Data_B = 9c
+# SUCCESS [Port B] Addr = 43, Exp = 9c, Obs = 9c
+# [WRITE B] Addr_B = 44, Data_B = fa
+# SUCCESS [Port B] Addr = 44, Exp = fa, Obs = fa
+# [WRITE B] Addr_B = 45, Data_B = 26
+# SUCCESS [Port B] Addr = 45, Exp = 26, Obs = 26
+# [WRITE B] Addr_B = 46, Data_B = 73
+# SUCCESS [Port B] Addr = 46, Exp = 73, Obs = 73
+# [WRITE B] Addr_B = 47, Data_B = a3
+# SUCCESS [Port B] Addr = 47, Exp = a3, Obs = a3
+# [WRITE B] Addr_B = 48, Data_B = 2f
+# SUCCESS [Port B] Addr = 48, Exp = 2f, Obs = 2f
+# [WRITE B] Addr_B = 49, Data_B = b3
+# SUCCESS [Port B] Addr = 49, Exp = b3, Obs = b3
+# [WRITE B] Addr_B = 50, Data_B = 5f
+# SUCCESS [Port B] Addr = 50, Exp = 5f, Obs = 5f
+# [WRITE B] Addr_B = 51, Data_B = 44
+# SUCCESS [Port B] Addr = 51, Exp = 44, Obs = 44
+# [WRITE B] Addr_B = 52, Data_B = f7
+# SUCCESS [Port B] Addr = 52, Exp = f7, Obs = f7
+# [WRITE B] Addr_B = 53, Data_B = cb
+# SUCCESS [Port B] Addr = 53, Exp = cb, Obs = cb
+# [WRITE B] Addr_B = 54, Data_B = e6
+# SUCCESS [Port B] Addr = 54, Exp = e6, Obs = e6
+# [WRITE B] Addr_B = 55, Data_B = 5a
+# SUCCESS [Port B] Addr = 55, Exp = 5a, Obs = 5a
+# [WRITE B] Addr_B = 56, Data_B = 29
+# SUCCESS [Port B] Addr = 56, Exp = 29, Obs = 29
+# [WRITE B] Addr_B = 57, Data_B = ed
+# SUCCESS [Port B] Addr = 57, Exp = ed, Obs = ed
+# [WRITE B] Addr_B = 58, Data_B = da
+# SUCCESS [Port B] Addr = 58, Exp = da, Obs = da
+# [WRITE B] Addr_B = 59, Data_B = 65
+# SUCCESS [Port B] Addr = 59, Exp = 65, Obs = 65
+# [WRITE B] Addr_B = 60, Data_B = b5
+# SUCCESS [Port B] Addr = 60, Exp = b5, Obs = b5
+# [WRITE B] Addr_B = 61, Data_B = df
+# SUCCESS [Port B] Addr = 61, Exp = df, Obs = df
+# [WRITE B] Addr_B = 62, Data_B = 79
+# SUCCESS [Port B] Addr = 62, Exp = 79, Obs = 79
+# [WRITE B] Addr_B = 63, Data_B = 44
+# SUCCESS [Port B] Addr = 63, Exp = 44, Obs = 44
+# [WRITE BOTH] Addr_A = 16, Data_A = 85 | Addr_B = 42, Data_B = ab
+# SUCCESS [Port A] Addr = 16, Exp = 85, Obs = 85
+# SUCCESS [Port B] Addr = 42, Exp = ab, Obs = ab
+# [WRITE BOTH] Addr_A = 43, Data_A = 5a | Addr_B = 14, Data_B = 3b
+# SUCCESS [Port A] Addr = 43, Exp = 5a, Obs = 5a
+# SUCCESS [Port B] Addr = 14, Exp = 3b, Obs = 3b
+# [WRITE BOTH] Addr_A = 28, Data_A = e5 | Addr_B = 26, Data_B = 6b
+# SUCCESS [Port A] Addr = 28, Exp = e5, Obs = e5
+# SUCCESS [Port B] Addr = 26, Exp = 6b, Obs = 6b
+# [WRITE BOTH] Addr_A = 61, Data_A = ea | Addr_B = 3, Data_B = c
+# SUCCESS [Port A] Addr = 61, Exp = ea, Obs = ea
+# SUCCESS [Port B] Addr = 3, Exp = c, Obs = c
+# [WRITE BOTH] Addr_A = 22, Data_A = b5 | Addr_B = 14, Data_B = 3b
+# SUCCESS [Port A] Addr = 22, Exp = b5, Obs = b5
+# SUCCESS [Port B] Addr = 14, Exp = 3b, Obs = 3b
+# [WRITE BOTH] Addr_A = 39, Data_A = 3a | Addr_B = 10, Data_B = 2b
+# SUCCESS [Port A] Addr = 39, Exp = 3a, Obs = 3a
+# SUCCESS [Port B] Addr = 10, Exp = 2b, Obs = 2b
+# [WRITE BOTH] Addr_A = 54, Data_A = b5 | Addr_B = 56, Data_B = e3
+# SUCCESS [Port A] Addr = 54, Exp = b5, Obs = b5
+# SUCCESS [Port B] Addr = 56, Exp = e3, Obs = e3
+# [WRITE BOTH] Addr_A = 57, Data_A = ca | Addr_B = 56, Data_B = e3
+# SUCCESS [Port A] Addr = 57, Exp = ca, Obs = ca
+# SUCCESS [Port B] Addr = 56, Exp = e3, Obs = e3
+# [WRITE BOTH] Addr_A = 20, Data_A = a5 | Addr_B = 19, Data_B = 4c
+# SUCCESS [Port A] Addr = 20, Exp = a5, Obs = a5
+# SUCCESS [Port B] Addr = 19, Exp = 4c, Obs = 4c
+# [WRITE BOTH] Addr_A = 4, Data_A = 25 | Addr_B = 25, Data_B = 6c
+# SUCCESS [Port A] Addr = 4, Exp = 25, Obs = 25
+# SUCCESS [Port B] Addr = 25, Exp = 6c, Obs = 6c
+# [WRITE BOTH] Addr_A = 27, Data_A = da | Addr_B = 13, Data_B = 3c
+# SUCCESS [Port A] Addr = 27, Exp = da, Obs = da
+# SUCCESS [Port B] Addr = 13, Exp = 3c, Obs = 3c
+# [WRITE BOTH] Addr_A = 25, Data_A = ca | Addr_B = 45, Data_B = bc
+# SUCCESS [Port A] Addr = 25, Exp = ca, Obs = ca
+# SUCCESS [Port B] Addr = 45, Exp = bc, Obs = bc
+# [WRITE BOTH] Addr_A = 54, Data_A = b5 | Addr_B = 10, Data_B = 2b
+# SUCCESS [Port A] Addr = 54, Exp = b5, Obs = b5
+# SUCCESS [Port B] Addr = 10, Exp = 2b, Obs = 2b
+# [WRITE BOTH] Addr_A = 54, Data_A = b5 | Addr_B = 21, Data_B = 5c
+# SUCCESS [Port A] Addr = 54, Exp = b5, Obs = b5
+# SUCCESS [Port B] Addr = 21, Exp = 5c, Obs = 5c
+# [WRITE BOTH] Addr_A = 6, Data_A = 35 | Addr_B = 4, Data_B = 13
+# SUCCESS [Port A] Addr = 6, Exp = 35, Obs = 35
+# SUCCESS [Port B] Addr = 4, Exp = 13, Obs = 13
+# [WRITE BOTH] Addr_A = 55, Data_A = ba | Addr_B = 41, Data_B = ac
+# SUCCESS [Port A] Addr = 55, Exp = ba, Obs = ba
+# SUCCESS [Port B] Addr = 41, Exp = ac, Obs = ac
+# [WRITE BOTH] Addr_A = 52, Data_A = a5 | Addr_B = 8, Data_B = 23
+# SUCCESS [Port A] Addr = 52, Exp = a5, Obs = a5
+# SUCCESS [Port B] Addr = 8, Exp = 23, Obs = 23
+# [WRITE BOTH] Addr_A = 40, Data_A = 45 | Addr_B = 45, Data_B = bc
+# SUCCESS [Port A] Addr = 40, Exp = 45, Obs = 45
+# SUCCESS [Port B] Addr = 45, Exp = bc, Obs = bc
+# [WRITE BOTH] Addr_A = 7, Data_A = 3a | Addr_B = 46, Data_B = bb
+# SUCCESS [Port A] Addr = 7, Exp = 3a, Obs = 3a
+# SUCCESS [Port B] Addr = 46, Exp = bb, Obs = bb
+# [WRITE BOTH] Addr_A = 8, Data_A = 45 | Addr_B = 28, Data_B = 73
+# SUCCESS [Port A] Addr = 8, Exp = 45, Obs = 45
+# SUCCESS [Port B] Addr = 28, Exp = 73, Obs = 73
+# [WRITE BOTH] Addr_A = 61, Data_A = ea | Addr_B = 41, Data_B = ac
+# SUCCESS [Port A] Addr = 61, Exp = ea, Obs = ea
+# SUCCESS [Port B] Addr = 41, Exp = ac, Obs = ac
+# [WRITE BOTH] Addr_A = 28, Data_A = e5 | Addr_B = 6, Data_B = 1b
+# SUCCESS [Port A] Addr = 28, Exp = e5, Obs = e5
+# SUCCESS [Port B] Addr = 6, Exp = 1b, Obs = 1b
+# [WRITE BOTH] Addr_A = 26, Data_A = d5 | Addr_B = 61, Data_B = fc
+# SUCCESS [Port A] Addr = 26, Exp = d5, Obs = d5
+# SUCCESS [Port B] Addr = 61, Exp = fc, Obs = fc
+# [WRITE BOTH] Addr_A = 38, Data_A = 35 | Addr_B = 48, Data_B = c3
+# SUCCESS [Port A] Addr = 38, Exp = 35, Obs = 35
+# SUCCESS [Port B] Addr = 48, Exp = c3, Obs = c3
+# [WRITE BOTH] Addr_A = 51, Data_A = 9a | Addr_B = 58, Data_B = eb
+# SUCCESS [Port A] Addr = 51, Exp = 9a, Obs = 9a
+# SUCCESS [Port B] Addr = 58, Exp = eb, Obs = eb
+# [WRITE BOTH] Addr_A = 30, Data_A = f5 | Addr_B = 58, Data_B = eb
+# SUCCESS [Port A] Addr = 30, Exp = f5, Obs = f5
+# SUCCESS [Port B] Addr = 58, Exp = eb, Obs = eb
+# [WRITE BOTH] Addr_A = 21, Data_A = aa | Addr_B = 26, Data_B = 6b
+# SUCCESS [Port A] Addr = 21, Exp = aa, Obs = aa
+# SUCCESS [Port B] Addr = 26, Exp = 6b, Obs = 6b
+# [WRITE BOTH] Addr_A = 57, Data_A = ca | Addr_B = 55, Data_B = dc
+# SUCCESS [Port A] Addr = 57, Exp = ca, Obs = ca
+# SUCCESS [Port B] Addr = 55, Exp = dc, Obs = dc
+# [WRITE BOTH] Addr_A = 22, Data_A = b5 | Addr_B = 0, Data_B = 3
+# SUCCESS [Port A] Addr = 22, Exp = b5, Obs = b5
+# SUCCESS [Port B] Addr = 0, Exp = 3, Obs = 3
+# [WRITE BOTH] Addr_A = 38, Data_A = 35 | Addr_B = 54, Data_B = db
+# SUCCESS [Port A] Addr = 38, Exp = 35, Obs = 35
+# SUCCESS [Port B] Addr = 54, Exp = db, Obs = db
+# [WRITE BOTH] Addr_A = 61, Data_A = ea | Addr_B = 28, Data_B = 73
+# SUCCESS [Port A] Addr = 61, Exp = ea, Obs = ea
+# SUCCESS [Port B] Addr = 28, Exp = 73, Obs = 73
+# [WRITE BOTH] Addr_A = 6, Data_A = 35 | Addr_B = 56, Data_B = e3
+# SUCCESS [Port A] Addr = 6, Exp = 35, Obs = 35
+# SUCCESS [Port B] Addr = 56, Exp = e3, Obs = e3
+# [WRITE BOTH] Addr_A = 62, Data_A = f5 | Addr_B = 27, Data_B = 6c
+# SUCCESS [Port A] Addr = 62, Exp = f5, Obs = f5
+# SUCCESS [Port B] Addr = 27, Exp = 6c, Obs = 6c
+# [WRITE BOTH] Addr_A = 15, Data_A = 7a | Addr_B = 57, Data_B = ec
+# SUCCESS [Port A] Addr = 15, Exp = 7a, Obs = 7a
+# SUCCESS [Port B] Addr = 57, Exp = ec, Obs = ec
+# [WRITE BOTH] Addr_A = 58, Data_A = d5 | Addr_B = 33, Data_B = 8c
+# SUCCESS [Port A] Addr = 58, Exp = d5, Obs = d5
+# SUCCESS [Port B] Addr = 33, Exp = 8c, Obs = 8c
+# [WRITE BOTH] Addr_A = 23, Data_A = ba | Addr_B = 33, Data_B = 8c
+# SUCCESS [Port A] Addr = 23, Exp = ba, Obs = ba
+# SUCCESS [Port B] Addr = 33, Exp = 8c, Obs = 8c
+# [WRITE BOTH] Addr_A = 6, Data_A = 35 | Addr_B = 16, Data_B = 43
+# SUCCESS [Port A] Addr = 6, Exp = 35, Obs = 35
+# SUCCESS [Port B] Addr = 16, Exp = 43, Obs = 43
+# Warning: Simultaneous write to same address 53!
+# [WRITE BOTH] Addr_A = 53, Data_A = aa | Addr_B = 53, Data_B = dc
+# ERROR [Port A] Addr = 53, Exp = aa, 
+# 
+#                 Obs = 35
+# ** Note: $stop    : tb_true_dual_port_ram.sv(143)
+#    Time: 3326 ns  Iteration: 0  Instance: /tb_true_dual_port_ram
+# Break in Task compare_data at tb_true_dual_port_ram.sv line 143
+# Stopped at tb_true_dual_port_ram.sv line 143
